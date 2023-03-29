@@ -11,6 +11,7 @@ class User extends Model {
       channel: {
         relation: Model.BelongsToOneRelation,
         modelClass: Channel,
+        filter: (query) => query.select('channel.id', 'channel.name'),
         join: {
           from: 'user.channelId',
           to: 'channel.id',

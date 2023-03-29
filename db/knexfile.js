@@ -4,6 +4,7 @@ const { knexSnakeCaseMappers } = require('objection');
 
 module.exports = {
   development: {
+    debug: true,
     client: 'mysql2',
     connection: {
       port : '3306',

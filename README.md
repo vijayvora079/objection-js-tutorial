@@ -30,3 +30,9 @@ npm run dev
 - `npm run migrate`: executes all migrations in `./db/migrations`
 - `npm run seed`: Insert all data into the table from `./db/seed`
 - `npm run down`: undo last migration. Since we only have one migration at the moment this is equivalent to deleting all tables
+
+
+
+
+## try this url
+`http://localhost:8080/user/2`
